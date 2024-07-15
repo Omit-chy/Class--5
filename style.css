@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    width: 260px; 
+    text-align: center;
+   box-shadow: 3px 4px 3px rgb(52, 52, 114);
+   background-color: rgb(190, 209, 224);
+
+}
+.box .top span{
+    background-color: rgb(196, 143, 73);
+    color: rgb(220, 226, 231);
+    border-radius: 2px;
+    padding: 2px 3px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 15px;
+}
+.box img{
+    text-align: center;
+    padding: 5px 10px;
+
+}
+.box img {width: 100%};
+
+.box.contains{
+    padding: 0px;
+}
+.box .contains h3 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box .contains h3 a:hover {
+    color: rgb(221, 245, 7);
+}
+ .price{
+    text-align: center;
+    color: rgb(238, 32, 5);
+    padding: 1px;
+    margin: 0 auto;
+}
+.btn1{
+    color: black;
+    line-height: 22px;
+    font-size: 17px;
+    text-align: center;
+}
+.btn2{
+    text-decoration: line-through;
+    
+   
+}
+.box button{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    border:none;
+    font-weight: bold;
+}
+.box .stn-1{
+    margin-bottom: 12px;
+    color: rgb(62, 98, 196);
+    cursor: pointer;
+}
+.box .stn-2{
+    margin-bottom: 12px;
+    color: rgb(44, 88, 207);
+    cursor: pointer;
+}
+.box .stn-1:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+.box .stn-2:hover{
+     background-color: blue;
+     color: aliceblue;
+}
